@@ -1,0 +1,125 @@
+
+.choose-conditions__container {
+    display: flex; 
+    align-items: center;
+    justify-content: center; 
+}
+
+.choose-conditions__inner-container {
+    background-color: #F4F2F2;
+    border-radius: 10px; 
+    padding: 19px 42px 19px 42px; 
+}
+
+.choose-conditions__item-string {
+    display: flex; 
+}
+
+.choose-conditions__item-container {
+    margin-right: 130px; 
+    margin-bottom: 40px;
+}
+.choose-conditions__item-container:last-child {
+    margin-right: 0px;
+}
+
+.choose-conditions__item-text {
+    margin-bottom: 10px;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.choose-conditions__item-input-string {
+    display: flex;
+    align-items: center;
+}
+
+.choose-conditions__item-input-container {
+    border: solid 3px #000; 
+    border-radius: 5px;
+    background-color: #FFF; 
+    display: flex;
+    width: 230px;
+    padding-right: 8px;
+    margin-right: 10px;
+}
+
+.choose-conditions__item-input {
+    width: 170px;
+    margin-right: 10px; 
+    font-size: 32px; 
+    font-weight: 300;
+    padding: 3px 14px 3px 14px;
+    border: none;
+    outline: none; 
+}
+
+.choose-conditions__item-input::placeholder {
+    font-size: 24px;
+    font-weight: 300; 
+    font-family: "Prompt", sans-serif;
+}
+
+.choose-conditions__plus-minus-btn-container {
+    padding: 3px 0 3px 0;
+}
+
+.choose-conditions__plus-btn-container {
+    margin-bottom: 8px;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+}
+
+.choose-conditions__minus-btn-container {
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+}
+
+.choose-conditions__plus-btn {
+    transform: rotate(90deg);
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.choose-conditions__minus-btn {
+    transform: rotate(-90deg);
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.choose-conditions__measure-unit {
+    color: #969494; 
+    font-size: 32px;
+    font-weight: 300;
+}
+
+.choose-conditions__input-label {   
+    font-size: 32px;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.choose-conditions__input-label:last-child {
+    margin-bottom: 0;
+}
+
+.choose-conditions__color-set-input[type="radio"] {
+    width: 24px;
+    height: 24px; 
+    margin-right: 20px;
+    border: solid 3px #969595;
+    cursor: pointer; 
+}
+
+.choose-conditions__color-set-input[type="radio"]:checked {
+    background-color: #969595;
+}
+
+.choose-conditions__highlighted-text {
+    color: #969595; 
+}

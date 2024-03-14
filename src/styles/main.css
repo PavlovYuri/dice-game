@@ -1,0 +1,15 @@
+
+.main__choose-text-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main__choose-text {
+    font-size: 52px;
+    font-weight: 500; 
+}
+
+.main__highlighted-text {
+    color: #FC6559;
+}
