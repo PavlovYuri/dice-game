@@ -1,0 +1,50 @@
+.control-panel {
+    background-color: #F4F2F2;
+    padding: 4px 40px;
+    display: flex;
+    align-items: center; 
+    border-radius: 10px 10px 0 0;
+    margin-top: 10px;
+}
+
+.control-panel__item {
+    margin-right: 50px;
+    font-size: 32px;
+    font-weight: 500;
+}
+.control-panel:last-child {
+    margin-right: 0;
+}
+
+
+.control-panel__remaining-time-text {
+    color: #FC6559;
+}
+
+.control-panel__remaining-dice-text {
+    color: #F9B938;
+}
+
+.control-panel__check-btn {
+    border: none; 
+    border-radius: 5px;
+    font-size: 32px;
+    font-weight: 500;
+    font-family: "Prompt", sans-serif;
+}
+
+.control-panel__check-btn:hover {
+    background-color: #a9ead0;
+}
+
+.control-panel__next-btn {
+    border: none;
+    border-radius: 5px;
+    font-size: 32px;
+    font-weight: 500;
+    font-family: "Prompt", sans-serif;
+}
+
+.control-panel__next-btn:hover {
+    background-color: #FFE6B5;
+}

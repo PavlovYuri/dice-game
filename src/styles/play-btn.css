@@ -1,0 +1,10 @@
+.play-btn {
+    padding: 15px 70px; 
+    background-color: #F9B938;
+    color: #FFF;
+    font-size: 52px;
+    font-weight: 500;
+    border: none;
+    border-radius: 10px; 
+    font-family: "Prompt", sans-serif;
+}

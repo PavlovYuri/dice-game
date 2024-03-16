@@ -16,13 +16,28 @@
     margin: 0;
 }
 
+.navbar__list-item:first-child:hover {
+    color: #FC6559;
+}
+
 .navbar__list-item {
     font-size: 32px;
     font-weight: 500;
+    cursor: pointer;
 }
+
+.navbar__list-item:hover {
+    color: #F9B938;
+}
+
 .navbar__list-item:last-child {
     margin-right: 857px;
 }
+
+.navbar__list-item:last-child:hover {
+    color: #00D67F;
+}
+
 .navbar__logo-container {
     display: flex;
     align-items: center;
