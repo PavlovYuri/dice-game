@@ -1,0 +1,40 @@
+.matching {
+    border-radius: 10px;
+    background-color: #F4F2F2;
+    font-size: 32px;
+    padding: 20px;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+
+.matching__table {
+    text-align: center;
+}
+
+.matching__high-th {
+    width: 210px;
+    padding: 20px 0;
+    font-size: 52px;
+}
+
+.matching__dice-highlighted-text {
+    color: #FC6559;
+}
+
+.matching__matching-highlighted-text {
+    color: #F9B938;
+}
+
+.matching__dice-number {
+    width: 30px;
+}
+
+.matching__dice-sub-td {
+    width: 180px;
+}
+
+.matching__sub-td {
+    width: 210px;
+}
+

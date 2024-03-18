@@ -6,6 +6,7 @@ import PlayBtn from "../shared/PlayBtn";
 import ControlPanel from "../widgets/ControlPanel";
 import GameField from "../widgets/GameField";
 import Navbar from "../widgets/Navbar";
+import Matching from "../widgets/Matching";
 
 const Main: React.FC = () => {
     return (
@@ -23,6 +24,7 @@ const Main: React.FC = () => {
                     </div>  */}
                     <ControlPanel></ControlPanel>
                     <GameField></GameField>
+                    <Matching></Matching>
                 </div>
             </main>
         </div>

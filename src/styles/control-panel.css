@@ -31,6 +31,7 @@
     font-size: 32px;
     font-weight: 500;
     font-family: "Prompt", sans-serif;
+    cursor: pointer;
 }
 
 .control-panel__check-btn:hover {
@@ -43,6 +44,7 @@
     font-size: 32px;
     font-weight: 500;
     font-family: "Prompt", sans-serif;
+    cursor: pointer;
 }
 
 .control-panel__next-btn:hover {
