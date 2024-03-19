@@ -1,5 +1,5 @@
 import React from "react";
-import "../../../styles/dice-svg.css"; 
+import "../../app/styles/dice-svg.css"; 
 
 const Dice4: React.FC = () => {
     return (

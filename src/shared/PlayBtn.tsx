@@ -1,5 +1,5 @@
 import React from "react";
-import "../../styles/play-btn.css";
+import "../app/styles/play-btn.css";
 
 const PlayBtn: React.FC = () => {
     return (

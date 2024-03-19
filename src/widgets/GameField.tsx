@@ -1,5 +1,5 @@
 import React from "react";
-import "../../styles/game-field.css";
+import "../app/styles/game-field.css";
 
 const GameField: React.FC = () => {
     return (

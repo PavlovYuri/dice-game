@@ -1,5 +1,5 @@
 import React from "react";
-import "../../styles/main.css";
+import "../app/styles/main.css";
 import Header from "../widgets/Header";
 import ChooseConditions from "../widgets/ChooseConditions";
 import PlayBtn from "../shared/PlayBtn";

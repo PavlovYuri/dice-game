@@ -1,0 +1,22 @@
+.matching__contains-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.matching__original-color-square {
+    width: 32px;
+    height: 32px;
+    background-color: #FF0000;
+    border: solid 2px #9C9A9A;
+    border-radius: 5px;
+}
+
+.matching__your-color-square {
+    width: 32px;
+    height: 32px;
+    background-color: #0000FF;
+    border: solid 2px #9C9A9A;
+    border-radius: 5px;
+}
+

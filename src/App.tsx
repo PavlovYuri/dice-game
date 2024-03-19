@@ -1,5 +1,5 @@
-import Main from "./components/pages/Main";
-import "./styles/app.css";
+import Main from "./pages/Main";
+import "./app/styles/app.css";
 
 function App() {
   return (

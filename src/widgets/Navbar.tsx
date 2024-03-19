@@ -1,5 +1,5 @@
 import React from "react";
-import "../../styles/navbar.css";
+import "../app/styles/navbar.css";
 import Logo from "../shared/Logo";
 
 const Navbar: React.FC = () => {

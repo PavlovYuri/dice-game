@@ -1,6 +1,6 @@
 import React from "react";
-import "../../styles/match-str.css"
-import Dice3 from "../shared/dice/Dice3";
+import "../app/styles/match-str.css"
+import Dice4 from "../shared/dice/Dice4";
 
 const MatchStr: React.FC = () => {
     return (
@@ -21,10 +21,14 @@ const MatchStr: React.FC = () => {
             </td>
             <td className="matching__td">
                 <tr className="matching__sub-tr">
-                    <td className="matching__sub-td">red</td>
+                    <td className="matching__sub-td matching__contains-block">
+                        <div className="matching__original-color-square"></div>
+                    </td>
                 </tr>
                 <tr className="matching__sub-tr">
-                    <td className="matching__sub-td">blue</td>
+                    <td className="matching__sub-td matching__contains-block">
+                        <div className="matching__your-color-square"></div>
+                    </td>
                 </tr>
                 <tr className="matching__sub-tr">
                     <td className="matching__sub-td">0</td>
@@ -32,10 +36,10 @@ const MatchStr: React.FC = () => {
             </td>
             <td className="matching__td">
                 <tr className="matching__sub-tr">
-                    <td className="matching__sub-td"><Dice3></Dice3></td>
+                    <td className="matching__sub-td"><Dice4></Dice4></td>
                 </tr>
                 <tr className="matching__sub-tr">
-                    <td className="matching__sub-td"><Dice3></Dice3></td>
+                    <td className="matching__sub-td"><Dice4></Dice4></td>
                 </tr>
                 <tr className="matching__sub-tr">
                     <td className="matching__sub-td">1</td>

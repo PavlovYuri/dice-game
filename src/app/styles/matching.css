@@ -6,6 +6,7 @@
     display: flex;
     align-items: center; 
     justify-content: center;
+    margin-bottom: 20px;
 }
 
 .matching__table {
@@ -18,6 +19,10 @@
     font-size: 52px;
 }
 
+.matching__th {
+    padding: 10px 0;
+}
+
 .matching__dice-highlighted-text {
     color: #FC6559;
 }
@@ -28,13 +33,17 @@
 
 .matching__dice-number {
     width: 30px;
+    text-align: left;
+    padding: 0 10px;
 }
 
 .matching__dice-sub-td {
     width: 180px;
+    text-align: left;
 }
 
 .matching__sub-td {
     width: 210px;
+    height: 42px;
 }
 

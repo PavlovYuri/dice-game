@@ -1,5 +1,5 @@
 import React from "react";
-import "../../styles/matching.css";
+import "../app/styles/matching.css";
 import MatchStr from "./MatchStr";
 import OverallResult from "./OverallResult";
 

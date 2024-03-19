@@ -1,5 +1,5 @@
 import React from "react";
-import "../../styles/choose-conditions.css";
+import "../app/styles/choose-conditions.css";
 
 const ChooseConditions: React.FC = () => {
     return (

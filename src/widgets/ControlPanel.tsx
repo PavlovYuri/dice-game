@@ -1,5 +1,5 @@
 import React from "react";
-import "../../styles/control-panel.css";
+import "../app/styles/control-panel.css";
 
 const ControlPanel: React.FC = () => {
     return (
